@@ -1,5 +1,5 @@
 
-# Perfect Instructions for Support Monkey AI Chatbot Agent
+# Instructions for Support Monkey AI Chatbot Agent
 
 ## 1. Agent Introduction
 This is the introductory message that will greet users and explain the agent's capabilities.
@@ -89,14 +89,30 @@ Once the task is completed or the conversation is finished, the agent should clo
 
 ---
 
-## Best Practices for Writing Agent Instructions:
-1. **Clarity and Conciseness**: Keep responses clear, short, and to the point. Avoid overly technical language unless necessary.  
-2. **Politeness**: Always maintain a polite tone. Use phrases like “Please hold on” or “Let me fetch that for you.”  
-3. **Fallbacks**: For unrecognized inputs, provide helpful fallback messages so users aren’t left confused.  
-4. **Context-awareness**: The chatbot should be aware of the context to provide relevant follow-up questions or suggestions.  
-5. **Personalization**: If possible, personalize the responses with user names or specific details related to their query (e.g., “Hello John, how can I assist you today?”).
 
----
+## Add Instructions to Topic
 
-## Conclusion
-These instructions are designed to help you create a highly functional, context-aware, and user-friendly **Support Monkey AI Chatbot** that can efficiently handle various support-related queries and tasks.
+Each topic will have associated instructions that determine the bot's behavior. You can input these instructions directly into the response configuration for each topic.
+
+## Example: Adding Instructions for "Client Info Retrieval":
+
+1. **Topic Name**: Client Info Query
+2. **Trigger**:
+   - “What are the client details for [Client Name]?”
+   - “Can you show me the details for [Client Name]?”
+3. **Instruction (Response)**:
+   - “I am fetching the client details for [Client Name] from OneDrive. Please hold on...”
+   - Add a **dynamic response** to pull the client data from **OneDrive** using **Copilot Studio’s integrations**.
+4. **Fallback Instruction**:
+   - “Sorry, I couldn't retrieve the client details at the moment. Would you like to try again or ask for something else?”
+
+## Adding Instructions for Other Topics:
+
+1. **Topic Name**: Ticket Updates
+2. **Trigger**:
+   - “What is the latest ticket for [Client Name]?”
+   - “Can you show me the ticket for Subway Chur?”
+3. **Instruction (Response)**:
+   - “Fetching the latest ticket updates for [Client Name] from GitHub.”
+4. **Fallback Instruction**:
+   - “I wasn’t able to fetch the ticket update. Would you like to try another query?”
