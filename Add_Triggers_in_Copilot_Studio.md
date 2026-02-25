@@ -1,6 +1,3 @@
-
-# Guide to Add Triggers in Copilot Studio
-
 ## Steps to Add Triggers in Copilot Studio
 
 1. **Log into Copilot Studio**:
