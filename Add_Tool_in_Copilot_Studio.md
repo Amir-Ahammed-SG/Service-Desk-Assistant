@@ -1,6 +1,3 @@
-
-# Guide to Add a Tool in Copilot Studio
-
 ## Steps to Add a Tool in Copilot Studio
 
 1. **Log into Copilot Studio**:
