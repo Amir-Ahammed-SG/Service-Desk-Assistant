@@ -27,10 +27,10 @@ The AI agent will have a multi-layered architecture:
 - Web interface, Microsoft Teams Bot, or Slack Bot.
 
 **Backend:**
-- AI Layer: Uses an LLM (like GPT or Azure OpenAI) to understand user queries and generate responses.
-- Connector Layer: Uses APIs to integrate with OneDrive, GitHub, Teams, and internal databases.
-- Search Engine: Uses Azure Cognitive Search or ElasticSearch for quick document retrieval.
-- Security: OAuth for secure connections to OneDrive, Teams, GitHub, and Azure Key Vault for storing sensitive data.
+- **AI Layer:** Uses an LLM (like GPT or Azure OpenAI) to understand user queries and generate responses.
+- **Connector Layer:** Uses APIs to integrate with OneDrive, GitHub, Teams, and internal databases.
+- **Search Engine:** Uses Azure Cognitive Search or ElasticSearch for quick document retrieval.
+- **Security:** OAuth for secure connections to OneDrive, Teams, GitHub, and Azure Key Vault for storing sensitive data.
 
 ## 3. Workflow for Query Handling
 The following steps define how the agent will handle user queries:
