@@ -44,3 +44,29 @@ The following steps define how the agent will handle user queries:
    - Use GitHub REST API to retrieve issues and project boards.
 7. **Response Generation:**
    - Summarize retrieved data and present it to the user, including links to the source files if necessary.
+
+## 4. Sample Queries and Responses
+Here are examples of the types of queries the chatbot will handle and how it will respond:
+- **Query 1: "Share me the Client details of OMK"**
+  → Search OneDrive/Excel for "OMK Client Details" → Return structured client information.
+- **Query 2: "What is the email and pass for Subway Chur?"**
+  → Retrieve credentials securely from Azure Key Vault.
+- **Query 3: "What is the POS pin for xx location of x client?"**
+  → Query internal database or Excel sheet to get the POS pin.
+- **Query 4: "How to configure Nexi Terminal?"**
+  → Search SOP in OneDrive or Confluence and summarize steps.
+- **Query 5: "What is the latest update of today’s ticket?"**
+  → Fetch GitHub issues updated today and summarize Teams discussion threads.
+
+## 5. Tools & Tech Stack
+The chatbot will use the following technologies and APIs:
+- **APIs:**
+  - Microsoft Graph API (for OneDrive, Teams).
+  - GitHub REST API (for repository and issue tracking).
+- **AI:**
+  - Azure OpenAI or OpenAI GPT for NLU and response generation.
+- **Search:**
+  - Azure Cognitive Search for indexing documents.
+- **Integration:**
+  - Power Automate for workflow automation or custom middleware.
+
