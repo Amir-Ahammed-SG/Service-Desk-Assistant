@@ -1,6 +1,3 @@
-
-# Guide to Add Suggested Prompts in Copilot Studio
-
 ## Steps to Add Suggested Prompts in Copilot Studio
 
 1. **Log into Copilot Studio**:
