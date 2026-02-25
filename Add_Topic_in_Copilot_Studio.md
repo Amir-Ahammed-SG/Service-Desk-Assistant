@@ -1,6 +1,3 @@
-
-# Guide to Add a Topic in Copilot Studio
-
 ## Steps to Add a Topic in Copilot Studio:
 
 1. **Log in to Copilot Studio**:
